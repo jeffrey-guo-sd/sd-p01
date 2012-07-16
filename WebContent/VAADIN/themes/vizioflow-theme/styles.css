@@ -12,8 +12,7 @@
 }
 
 .v-window,.v-popupview-popup,.v-filterselect-suggestpopup,.v-datefield-popup,.v-contextmenu,.v-Notification,.v-menubar-submenu
-	{
-	/* background-color: rgb(249, 249, 249);
+	{ /* background-color: rgb(249, 249, 249);
 	background-color: rgba(249, 249, 249, .85); */
 	background-color: rgb(255, 127, 39);
 	background-color: rgba(255, 127, 39, .85);
@@ -101,8 +100,8 @@ input.v-textfield,textarea.v-textarea,.v-filterselect {
 
 /* Alternate colors */
 .v-label-color,.v-button-link,.v-button-link:focus,.v-button-link:active,.v-disabled.v-button-link,.v-disabled.v-button-link:focus,.v-app a,.v-popupview-popup a,.v-popupview,.sidebar-menu .v-label
-	{
-	color: rgb(255, 153, 0);
+	{ /* color: rgb(255, 153, 0); */
+	color: #C35617
 }
 
 .v-button-default,.v-disabled.v-button-default,.v-disabled.v-button-default:focus,.v-button-default:active,.v-ie7 .v-button-default.v-pressed,.v-ie8 .v-button-default.v-pressed,.sidebar-menu .tab-selected,.sidebar-menu .selected,.v-horizontallayout-segment-alternate .v-button-down
@@ -121,10 +120,8 @@ input.v-textfield,textarea.v-textarea,.v-filterselect {
 }
 
 .v-button-default,.v-disabled.v-button-default,.v-disabled.v-button-default:focus,.v-button-default:active,.v-ie7 .v-button-default.v-pressed,.v-ie8 .v-button-default.v-pressed,.v-panel-bubble .v-panel-caption,.v-datefield-calendarpanel-day-selected,.v-table tr.v-selected,.v-contextmenu .gwt-MenuItem-selected,.v-contextmenu .gwt-MenuItem-selected div,.v-filterselect-suggestpopup .gwt-MenuItem-selected,.v-progressindicator-indicator,.v-tree-node-selected span,.sidebar-menu .tab-selected,.sidebar-menu .selected,.v-horizontallayout-segment-alternate .v-button-down,.v-menubar .v-menubar-menuitem-selected,.v-menubar-submenu .v-menubar-menuitem-selected
-	{
-	/* background-color: rgb(255, 153, 0); */
-	 background-color: rgb(255, 127, 39);
-	
+	{ /* background-color: rgb(255, 153, 0); */
+	background-color: rgb(255, 127, 39);
 	color: rgb(255, 254, 253);
 	text-shadow: 0 -1px 0 rgb(163, 111, 31);
 }
@@ -141,33 +138,32 @@ input.v-textfield,textarea.v-textarea,.v-filterselect {
 	text-shadow: 0 1px 0 rgb(163, 111, 31);
 }
 
-
 /* ******modified******* */
-
-.heading-one{
+.heading-one {
 	margin: 0 10px;
 	padding: 0 0 0 0;
 	font-size: 28px;
 	font-weight: bold;
 }
 
-.heading-two{
-	margin: 0 10px;
+.heading-two {
 	padding: 0 0 0 0;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
 }
 
-
-.titlebar{
-	background-color: #FF7F27;
-	color:  white;
+.titlebar {
+	background-color: #C35617;
+	color: white;
 	height: 20px;
 }
 
+.search {
+	padding-top: 2px;
+}
 
-#notify .v-filterselect-input{
-	color:red;
+#notify .v-filterselect-input {
+	color: red;
 }
 
 #tree-container {
@@ -175,20 +171,100 @@ input.v-textfield,textarea.v-textarea,.v-filterselect {
 	overflow: scroll;
 }
 
-.v-captiontext{
+.v-captiontext {
 	font-weight: bold;
 }
 
-.v-tabsheet-tabitem-selected{
+.v-tabsheet-tabitem-selected {
 	background-color: rgb(255, 127, 39);;
 	color: white;
 }
 
-
-.v-tree{
+.v-tree {
 	
 }
 
-.links-buttons{
+.links-buttons {
 	color: red;
+}
+
+/************************************/
+@charset "utf-8";
+
+div {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+/* Header styling start */
+/* body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+} */
+.header_holder {
+	float: left;
+	width: 100%;
+	background: url(images/Header.png) repeat;
+	height: 31px;
+}
+
+.logo-mid-buttons {
+	float: left;
+	width: 50%;
+}
+
+.logo {
+	float: left;
+	margin: 3px 0 0 10px;
+}
+
+.header-right-buttons {
+	float: right;
+	margin-top: 5px;
+}
+
+.mid-buttons {
+	float: right;
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.buttons {
+	background: url(images/top-bar-btn-normal.png) no-repeat;
+	width: 78px;
+	height: 28px;
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+.buttons a {
+	color: #fff;
+	text-decoration: none;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.buttons:hover {
+	background: url(images/top-bar-btn-hover.png) no-repeat;
+	cursor: pointer;
+}
+
+.buttons:active {
+	background: url(images/top-bar-btn-selected.png) no-repeat;
+}
+
+.buttons-active {
+	background: url(images/top-bar-btn-selected.png) no-repeat;
+}
+
+.footer {
+	background: url(images/Footer.png) repeat;
 }

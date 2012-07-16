@@ -16,6 +16,12 @@
 			<param-name>application</param-name>
 			<param-value>com.example.vizioflowdashboard.VizioflowdashboardApplication</param-value>
 		</init-param>
+		<!-- <init-param>
+			<description>
+			Application widgetset</description>
+			<param-name>widgetset</param-name>
+			<param-value>com.example.vizioflowdashboard.VizioflowdashboardApplicationWidgetset</param-value>
+		</init-param> -->
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Vizioflowdashboard Application</servlet-name>
