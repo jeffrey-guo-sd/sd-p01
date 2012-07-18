@@ -1,8 +1,7 @@
-package com.example.vizioflowdashboard.customwidgets;
+package com.vizioflow.dashboard.customwidgets;
 
 import java.util.Iterator;
 
-import com.example.vizioflowdashboard.util.ExampleUtil;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Button.ClickEvent;
 import com.vaadin.ui.HorizontalLayout;
@@ -14,6 +13,7 @@ import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.Window;
 import com.vaadin.ui.Window.CloseEvent;
 import com.vaadin.ui.themes.Reindeer;
+import com.vizioflow.dashboard.util.ExampleUtil;
 
 @SuppressWarnings("serial")
 public class ApplicationLayoutExample extends VerticalLayout {

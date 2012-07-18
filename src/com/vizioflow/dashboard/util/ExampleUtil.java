@@ -1,4 +1,4 @@
-package com.example.vizioflowdashboard.util;
+package com.vizioflow.dashboard.util;
 
 import java.text.NumberFormat;
 import java.util.Locale;

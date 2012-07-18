@@ -1,4 +1,4 @@
-package com.example.vizioflowdashboard.customwidgets;
+package com.vizioflow.dashboard.customwidgets;
 
 import com.vaadin.ui.TabSheet;
 import com.vaadin.ui.TabSheet.SelectedTabChangeEvent;

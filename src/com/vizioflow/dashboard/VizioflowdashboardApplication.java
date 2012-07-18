@@ -1,12 +1,7 @@
-package com.example.vizioflowdashboard;
+package com.vizioflow.dashboard;
 
 import org.vaadin.addon.borderlayout.BorderLayout;
 
-import com.example.vizioflowdashboard.customwidgets.ActivityHostsTable;
-import com.example.vizioflowdashboard.customwidgets.FiltersTree;
-import com.example.vizioflowdashboard.customwidgets.NotificationsTable;
-import com.example.vizioflowdashboard.customwidgets.TitleBar;
-import com.example.vizioflowdashboard.customwidgets.WorkflowsTabsLayout;
 import com.vaadin.Application;
 import com.vaadin.ui.CustomLayout;
 import com.vaadin.ui.GridLayout;
@@ -15,6 +10,11 @@ import com.vaadin.ui.HorizontalSplitPanel;
 import com.vaadin.ui.SplitPanel;
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.Window;
+import com.vizioflow.dashboard.customwidgets.ActivityHostsTable;
+import com.vizioflow.dashboard.customwidgets.FiltersTree;
+import com.vizioflow.dashboard.customwidgets.NotificationsTable;
+import com.vizioflow.dashboard.customwidgets.TitleBar;
+import com.vizioflow.dashboard.customwidgets.WorkflowsTabsLayout;
 
 @SuppressWarnings({ "serial", "deprecation" })
 public class VizioflowdashboardApplication extends Application {

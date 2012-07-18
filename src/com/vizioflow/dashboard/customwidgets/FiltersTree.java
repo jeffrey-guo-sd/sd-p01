@@ -1,6 +1,5 @@
-package com.example.vizioflowdashboard.customwidgets;
+package com.vizioflow.dashboard.customwidgets;
 
-import com.example.vizioflowdashboard.util.ExampleUtil;
 import com.vaadin.data.Item;
 import com.vaadin.data.util.HierarchicalContainer;
 import com.vaadin.event.Action;
@@ -9,6 +8,7 @@ import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.Label;
 import com.vaadin.ui.Tree;
 import com.vaadin.ui.VerticalLayout;
+import com.vizioflow.dashboard.util.ExampleUtil;
 
 /**
  * TreeWidget to show filters on left side of workflows table.
